@@ -22,6 +22,7 @@ contract SongRegistry {
         return songs.length - 1;
     }
 
+
     function numberOfSongs() public view returns(uint) {
         return songs.length;
     }
